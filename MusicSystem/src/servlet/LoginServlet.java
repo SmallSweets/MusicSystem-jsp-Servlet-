@@ -15,7 +15,7 @@ import com.mysql.cj.Session;
 import dao.LoginDao;
 
 
-@WebServlet("/Login")
+@WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
 	private PreparedStatement pst;
 	private ResultSet rst;

@@ -1,11 +1,18 @@
 package entity;
 
 public class Music {
-
+	private String Id;
 	private String Name;
 	private String Singer;
 	private String Time;
 	private String Url;
+	
+	public String getId() {
+		return Id;
+	}
+	public void setId(String id) {
+		Id = id;
+	}
 	public String getName() {
 		return Name;
 	}

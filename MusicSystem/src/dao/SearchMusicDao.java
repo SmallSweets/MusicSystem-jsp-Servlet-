@@ -15,6 +15,7 @@ public class SearchMusicDao {
 	
 	public ResultSet search(String key) {
 		conn = databaseConnect.dbconnect();
+		keys.add("Id");
 		keys.add("Name");
 		keys.add("Singer");
 		keys.add("Time");

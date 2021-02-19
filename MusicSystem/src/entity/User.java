@@ -1,12 +1,20 @@
 package entity;
 
 public class User {
+	private String Id;
 	private String Name;
 	private String Sex;
 	private String Age;
 	private String Address;
 	private String Phone;
 	private String Password;
+	
+	public String getId() {
+		return Id;
+	}
+	public void setId(String id) {
+		Id = id;
+	}
 	public String getName() {
 		return Name;
 	}

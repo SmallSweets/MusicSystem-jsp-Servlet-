@@ -17,6 +17,7 @@ public class UpdateUserinfoServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
+		user.setId(request.getParameter("Id"));
 		user.setName(request.getParameter("Name"));
 		user.setAddress(request.getParameter("Address"));
 		user.setAge(request.getParameter("Age"));
